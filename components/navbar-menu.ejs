@@ -1,0 +1,13 @@
+<li data-action="sub-toggle" sub-align="<%= option.subAlign %>">
+    <a href="javascript:void(0)">
+        <%= caption %>
+    </a>
+
+    <div class="supsing-sub sub-menu">  
+        <div class="sub-inner bg-default" style="padding: left;">
+        	<% menu.forEach(function(item) { %>
+            	<div><a href="<%= item.href %>"><%= item.title %></a></div>
+            <% }) %> 
+    	</div>
+    </div>
+</li>

@@ -1,0 +1,19 @@
+<div id="maple-front-navbar" class="sup-navbar sup-navbar-inverse navbar-fixed-top" >
+    <div class="sup-navbar-inner" style="background: #215b89; color: #eee" >
+        <div class="container" >
+                    
+            <div class="supsing-nav-collapse" >
+                <div class="supsing-nav-toggle-btn" >    
+                    <span class="glyphicon glyphicon-chevron-down" ></span>
+                </div>
+                <ul class="supsing-main-nav nav supsing-nav-with-sub pull-left" sub-mode="click" >
+                    <% items.forEach(function(item) { %>
+                        <%- item %>
+                    <% }); %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+        
+<div id="navbar-offset" style="margin-bottom:40px; line-height:1px;" ></div>

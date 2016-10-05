@@ -1,0 +1,22 @@
+{
+  "name": "maple-navbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify-ejs": "^0.0.2",
+    "ejs": "^2.5.2"
+  },
+  "devDependencies": {
+    "through": "^2.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser": "client.js",
+  "browserify": {
+    "transform": ["./builder/ejs"]
+  },
+  "author": "",
+  "license": "ISC"
+}
